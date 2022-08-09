@@ -60,7 +60,7 @@ When("Pregunto si es viernes", async function() {
 
 Then("Responde {string}", function(string){
 
-    should.equal(actual,"lunes");
+    should.equal(actual,"martes");
     //return "NO";
 
 })
