@@ -1,0 +1,19 @@
+{
+  "name": "selenium2",
+  "version": "1.0.0",
+  "description": "test2",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test  & node genreport.js"
+  },
+  "author": "JMP",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "selenium-webdriver": "^4.3.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "cucumber-html-reporter": "^5.5.0"
+  }
+}

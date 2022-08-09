@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "es-viernes?;hoy-no-es-viernes",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Hoy no es viernes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "hoy es domingo",
+            "match": {
+              "location": "test\\features\\step_definitions\\stepdefs.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274824
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Pregunto si es viernes",
+            "match": {
+              "location": "test\\features\\step_definitions\\stepdefs.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1737400283
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Responde \"NO\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\stepdefs.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 779219
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "es-viernes?",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Es viernes?",
+    "tags": [],
+    "uri": "test\\features\\escenarios.feature"
+  }
+]
